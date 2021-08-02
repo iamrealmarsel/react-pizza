@@ -7,9 +7,9 @@ const middlewares = jsonServer.defaults({
 
 const PORT = process.env.PORT || 3003;
 
-server.use(middlewares)
-server.use(router)
+server.use(middlewares);
+server.use(router);
 
 server.listen(PORT, () => {
-  console.log('server is running')
-}))
+  console.log('server is running');
+});
